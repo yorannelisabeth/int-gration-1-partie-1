@@ -1,0 +1,68 @@
+ 
+ .gandalf{
+    opacity: 0.3;
+  }
+.gandalf:hover {
+    opacity: 1;
+    }
+ 
+.rewardtext{   
+        
+        
+        background-color: lightgray;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);;
+        border-radius: 5%;
+        font-size: 2.5rem;
+       
+           
+  }
+  .dead{
+    
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);;
+    border-radius: 5%;
+    font-size: 3rem;
+  }
+  
+  .wizard{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);;
+    border-radius: 5%;
+    font-size: 3rem;
+  }
+  
+  .gandalf:hover .wizard{
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+   
+    border-radius: 5%;
+    font-size: 1.5rem;
+  }
+  .gandalf:hover .rewardtext{
+      display: none;
+  }
+  .gold{
+      color: orangered;
+  }
+  .fellows{
+      font-size: 3rem;
+  }
+  .lignenoir{border: 2px solid black;
+    width: 90%;
+    position: absolute;
+    left: 2%;
+    
+}
+.golumpetit{
+    object-fit: cover;
+}
